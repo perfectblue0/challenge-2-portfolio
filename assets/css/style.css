@@ -45,7 +45,7 @@ header {
 
 /*adjusts the figure in relation to the about-description class*/
 
-figure {
+#container-1 {
     display: flex;
     width: 50%;
     align-items: center;
@@ -64,7 +64,7 @@ figure {
     word-spacing: 3px;
 }
 
-/*sets up the my work title, and app list that have images*/
+/*positions the my work title and sets up how icons will be row and wrapped*/
 
 .work-list {
         width: 100%;
@@ -72,4 +72,26 @@ figure {
         flex-direction: row;
         flex-wrap: wrap;
 }
+
+#work-title {
+    width: 100%;
+    text-align: center;
+}
+
+.list-apps {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.app-head {
+    font-size: 30px;
+}
+
+#calendar-text-icon {
+    display: flex;
+    flex-direction: column;
+}
+
 
