@@ -28,7 +28,7 @@ header {
     align-items: center;
 }
 
-/*affects everything below the header and nav children*/
+/*sets up the about me title, image, and paragraph to wrap*/
 
 .about {
     width: 100%;
@@ -64,5 +64,12 @@ figure {
     word-spacing: 3px;
 }
 
+/*sets up the my work title, and app list that have images*/
 
+.work-list {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
 
