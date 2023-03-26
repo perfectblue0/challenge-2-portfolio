@@ -194,4 +194,53 @@ h3 + p, p + p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+@media screen and (max-width: 480px) {
 
+    /* this modifies the h1 and navigation */
+
+    header {
+        flex-direction: column;
+    }
+
+    .name {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .navigation {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    nav > a {
+        padding: 20px;
+    }
+
+    /* this modifies the about me title, paragraph, and image */
+
+    .about{
+        justify-content: center;
+    }
+
+   #container-1 {
+        justify-content: center;
+        width: 80%;
+        padding-bottom: 30px;
+   }
+
+   .about-description {
+        text-align: center;
+        font-size: 12px;
+        width: 70%;
+   }
+
+   /* this modifies the work section title, image text, and image size */
+
+   .app-head {
+        font-size: 20px;
+   }
+
+   h3 + p, p + p {
+        font-size: 25px;
+   }
+}
