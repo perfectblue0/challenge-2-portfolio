@@ -32,7 +32,7 @@ header {
     font-size: 20px;
 }
 
-/*sets up the about me title, image, and paragraph to wrap*/
+/*sets up the about me title padding, image, and paragraph to wrap*/
 
 .about {
     width: 100%;
@@ -47,7 +47,7 @@ header {
 #about-title {
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 20px 100px 100px;
     margin: 30px auto;
 }
 
@@ -89,10 +89,13 @@ header {
 #work-title {
     width: 100%;
     text-align: center;
+    padding: 20px 100px 100px 100px;
+    margin: 30px auto;
+
 }
 
 .list-apps {
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,7 +106,10 @@ header {
 /* title of the apps */
 
 .app-head {
-    font-size: 30px;
+    font-size: 40px;
+    font-family: monospace;
+    margin: 10px auto;
+    padding-bottom: 10px;
 }
 
 /* figure containers with titles and images */
@@ -111,32 +117,47 @@ header {
 #calendar-text-icon {
     display: flex;
     flex-direction: column;
-    background-color: rgb(117, 196, 218);
-    width: 100%;
+    width: 95%;
+    padding-bottom: 50px;
+    margin: 40px;
+    background-color: white;
 }
 
 #snake-text-icon {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-color: rgb(182, 249, 249);
+
 }
 
 #library-text-icon {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-color: thistle;
 }
 
 #weather-text-icon {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-color:antiquewhite;
 }
 
 #lorem-text-icon {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-color:rgb(171, 250, 226);
 }
 
 /* this is the contact section */
