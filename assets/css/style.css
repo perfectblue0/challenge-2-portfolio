@@ -39,21 +39,28 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
 
 }
 
 #about-title {
     width: 100%;
     text-align: center;
+    padding: 20px;
+    margin: 30px auto;
 }
 
 /*adjusts the figure in relation to the about-description class*/
 
 #container-1 {
     display: flex;
-    width: 50%;
-    align-items: center;
+    width: 45%;
+    align-items: flex-start;
     justify-content: center;
+    padding-top: 12px;
+    margin: 5px;
+
 }
 
 #avatar {
