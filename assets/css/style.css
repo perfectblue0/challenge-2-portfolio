@@ -234,12 +234,12 @@ h3 + p, p + p {
         width: 70%;
    }
 
-   /* this modifies the work section title, image text, and image size */
+   /* this modifies the work image titles */
 
    .app-head {
         font-size: 20px;
    }
-
+   /* this modifies the contact p tag text */
    h3 + p, p + p {
         font-size: 25px;
    }
