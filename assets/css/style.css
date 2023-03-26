@@ -83,6 +83,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .app-head {
@@ -92,6 +93,30 @@ header {
 #calendar-text-icon {
     display: flex;
     flex-direction: column;
+    background-color: rgb(117, 196, 218);
+    width: 100%;
 }
 
+#snake-text-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
 
+#library-text-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#weather-text-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#lorem-text-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
