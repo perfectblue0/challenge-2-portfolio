@@ -8,6 +8,10 @@ I built this project to demonstrate that I can build a static website using html
 
 Resize browser to see how the elements on the page change. Click on the links to view different sections of the page.
 
+![view of webpage on small screen](./assets/images/page-320.png)
+
+![view of webpage on extra large screen](./assets/images/page-1200.png)
+
 
 ## Credits
 
