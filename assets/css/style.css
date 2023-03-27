@@ -181,7 +181,6 @@ header {
 #contact-title {
     width: 100%;
     text-align: center;
-    padding: 20px 100px 100px;
     margin: 30px auto;
 }
 
@@ -204,6 +203,7 @@ h3 + p, p + p {
 
     .name {
         text-align: center;
+        font-size: 25px;
         padding-bottom: 10px;
     }
 
@@ -237,8 +237,17 @@ h3 + p, p + p {
    /* this modifies the work image titles */
 
    .app-head {
-        font-size: 20px;
+        font-size: 10px;
+        line-height: 1.5;
+        letter-spacing: 2px;
    }
+
+   /* this modifies the contact class box */
+
+   .contact {
+        flex-direction: column;
+   }
+
    /* this modifies the contact p tag text */
    h3 + p, p + p {
         font-size: 25px;
