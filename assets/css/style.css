@@ -272,3 +272,13 @@ h3 + p, p + p {
         font-size: 25px;
    }
 }
+
+@media screen and (max-width: 600px) {
+
+    /* this makes about me pic and <p> section in to column */
+
+    .about {
+        justify-content: center;
+    }
+
+}
