@@ -6,7 +6,7 @@ I built this project to demonstrate that I can build a static website using html
 
 ## Usage
 
-Resize browser to see how the elements on the page change. Click on the links to view different sections of the page.
+Resize browser to see how the elements on the page change. Click on the links to view different sections of the page. Click on the image below "Group Project 1: Sunny Search" to check out the application I worked on with my group.
 
 ![view of webpage on small screen](./assets/images/page-320.png)
 
