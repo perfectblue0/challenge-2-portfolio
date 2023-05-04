@@ -2,7 +2,7 @@
 
 ## Description
 
-I built this project to demonstrate that I can build a static website using html and CSS. In this project I used flexbox for my layout and  included a media query for smaller screens; both of which made for a responsive website.
+I built this project to demonstrate that I can build a static website using html and CSS. In this project I used flexbox for my layout and included a media query for smaller screens; both of which made for a responsive website. The image below "Group Project 1: Sunny Search" is a link to the group project application.
 
 ## Usage
 
@@ -12,6 +12,13 @@ Resize browser to see how the elements on the page change. Click on the links to
 
 ![view of webpage on extra large screen](./assets/images/page-1200.png)
 
+## Link to Application
+
+https://perfectblue0.github.io/challenge-2-portfolio/
+
+## Link to Repo
+
+https://github.com/perfectblue0/challenge-2-portfolio
 
 ## Credits
 

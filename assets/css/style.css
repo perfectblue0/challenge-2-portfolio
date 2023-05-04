@@ -136,10 +136,15 @@ a:hover {
     margin: 10px auto;
     padding-bottom: 10px;
 }
+/* styles the image of the gProject */
+
+#calendar {
+    width: 90%;
+}
 
 /* figure containers with titles and images */
 
-#calendar-text-icon {
+#gProject-text-icon {
     display: flex;
     flex-direction: column;
     width: 95%;
